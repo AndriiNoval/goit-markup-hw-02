@@ -37,7 +37,7 @@ a {
     color: #2e2f42;
 }
 .header-menu-link:hover,
-.header-menu-link:focus {
+.header-menu-link:active {
     color: #404bbf
 }
 
@@ -54,7 +54,7 @@ a {
     
 }
 .header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-link:active {
     color: #404bbf;
 }
 
