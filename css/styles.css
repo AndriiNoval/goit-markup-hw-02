@@ -37,7 +37,8 @@ a {
     color: #2e2f42;
 }
 .header-menu-link:hover,
-.header-menu-link:active {
+.header-menu-link:active,
+.header-menu-link:focus {
     color: #404bbf
 }
 
@@ -54,7 +55,8 @@ a {
     
 }
 .header-contacts-link:hover,
-.header-contacts-link:active {
+.header-contacts-link:active,
+.header-contacts-link:focus {
     color: #404bbf;
 }
 
@@ -120,7 +122,7 @@ color: #2e2f42;
     text-transform: capitalize   
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF
 }
 .team-item-title {
@@ -173,7 +175,7 @@ color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;    
