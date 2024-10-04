@@ -36,12 +36,11 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: #404bbf
 }
-.header-menu-link-active:active {
-    color: #404bbf;
-}
+
 
 .header-contacts {
     font-style: normal;
@@ -80,7 +79,6 @@ color: #fff;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
 }
